@@ -28,7 +28,7 @@ const organizers_details = [
   ['Paul Zhou', 'assets/images/organizers/paul_zhou.png', 'PhD Student', 'UC Berkeley', 'https://zhouzypaul.github.io/'],
   ['Jason Liu', 'assets/images/organizers/jason_liu.jpg', 'PhD Candidate', 'Brown University', 'https://jasonxyliu.github.io'],
   ['Huihan Liu', 'assets/images/organizers/huihan_liu.png', 'PhD Student', 'UT Austin', 'https://huihanl.github.io'],
-  ['Jensen Gao', 'assets/images/organizers/jensen_gao.png', 'PhD Student', 'Stanford University', 'https://jensen-gao.github.io/'],
+  ['Jensen Gao', 'assets/images/organizers/jensen_gao.png', 'PhD Student', 'Stanford University', 'https://www.linkedin.com/in/jensen-gao-038024162/'],
 ]
 
 const advisory_committee = [

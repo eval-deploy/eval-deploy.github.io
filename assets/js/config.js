@@ -11,6 +11,8 @@ const talk_speaker_details = {
   'kl': ['Kimin Lee', './assets/images/talks/kimin_lee.jpeg', 'Assistant Professor', 'KAIST', 'https://sites.google.com/view/kiminlee', 'Safety in LLM agents', ''],
   'dz': ['Ding Zhao', './assets/images/talks/ding_zhao.png', 'Professor', 'CMU', 'https://safeai-lab.github.io/', 'Evaluation protocols in autonomous vehicles and safety in robotics', ''],
   'ds': ['Dhruv Shah', './assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Deploying robots in the wild', ''],
+  'mi': ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Scientist', 'Toyota Research Institute', 'https://mashaitkina.com/', ""],
+
 }
   
 const panelists_details = [
@@ -19,7 +21,6 @@ const panelists_details = [
   ['Georgia Chalvatzaki', 'assets/images/panelists/georgia.jpg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Team/GeorgiaChalvatzaki'],
   ['Sudeep Dasari', 'assets/images/panelists/sudeep_dasari.jpg', 'Research Scientist', 'Google DeepMind', 'https://sudeepdasari.com/'],
   ['Ashwin Balakrishna', 'assets/images/panelists/ashwin_balakrishna.jpg', 'Research Scientist', 'Google DeepMind', 'https://ashwin.io/'],
-  ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Scientist', 'Toyota Research Institute', 'https://mashaitkina.com/'],
 ]
 
 
@@ -33,6 +34,7 @@ const organizers_details = [
 
 const advisory_committee = [
   ['Abhishek Gupta', 'assets/images/organizers/abhishek_gupta.jpeg', 'Assistant Professor', 'University of Washington', 'https://homes.cs.washington.edu/~abhgupta/'],
+  ['Stefanie Tellex', 'assets/images/organizers/tellex.jpg', 'Associate Professor', 'Brown University', 'https://cs.brown.edu/people/stellex/'],
   ['Yuke Zhu', 'assets/images/panelists/yuke_zhu.jpg', 'Assistant Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~yukez/']
 ]
 

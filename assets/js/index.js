@@ -100,8 +100,8 @@ $(document).ready(function () {
 
   // talk content
   talk_content = Object.values(talk_speaker_details)
-  populate_people_html('talk-content1', talk_content.slice(0, 3))
-  populate_people_html('talk-content2', talk_content.slice(3, ))
+  populate_people_html('talk-content1', talk_content.slice(0, 4))
+  populate_people_html('talk-content2', talk_content.slice(4, ))
 
   // panelists content
   populate_people_html('panelist-content', panelists_details)

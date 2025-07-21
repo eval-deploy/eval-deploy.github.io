@@ -8,8 +8,7 @@ const talk_speaker_details = {
   'kp': ['Karl Pertsch', './assets/images/talks/karl_pertsch.png', 'Postdoc', 'Stanford University / UC Berkeley', 'https://kpertsch.github.io/', 'Iterating on robot evaluation for generalist robot policies', ''],
   'mc': ['Maya Cakmak', './assets/images/talks/maya_cakmak.png', 'Professor', 'University of Washington', 'https://homes.cs.washington.edu/~mcakmak/', 'Deployment and evaluation of assistive robots in homes', ''],
   'sb': ['Serena Booth', './assets/images/talks/serena_booth.jpeg', 'Assistant Professor', 'Brown University', 'https://www.slbooth.com/', 'AI Alignment and Policy', ''],
-  'kl': ['Kimin Lee', './assets/images/talks/kimin_lee.jpeg', 'Assistant Professor', 'KAIST', 'https://sites.google.com/view/kiminlee', 'Safety in LLM agents', ''],
-  'dz': ['Ding Zhao', './assets/images/talks/ding_zhao.png', 'Professor', 'CMU', 'https://safeai-lab.github.io/', 'Evaluation protocols in autonomous vehicles and safety in robotics', ''],
+  'kl': ['Jason Ma', './assets/images/talks/jason_ma.jpeg', 'Co-Founder', 'Dyna Robotics', 'https://jasonma2016.github.io/', '', ''],
   'ds': ['Dhruv Shah', './assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Deploying robots in the wild', ''],
   'mi': ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Scientist', 'Toyota Research Institute', 'https://mashaitkina.com/', ""],
 
@@ -26,6 +25,7 @@ const panelists_details = [
 
 const organizers_details = [
   ['Abrar Anwar', 'assets/images/organizers/abrar_anwar.png', 'PhD Candidate', 'University of Southern California', 'https://abraranwar.github.io'],
+  ['Jesse Zhang', 'assets/images/organizers/jessez.jpeg', 'Postdoc', 'University of Washington', 'https://jessezhang.net/'],
   ['Paul Zhou', 'assets/images/organizers/paul_zhou.png', 'PhD Student', 'UC Berkeley', 'https://zhouzypaul.github.io/'],
   ['Jason Liu', 'assets/images/organizers/jason_liu.jpg', 'PhD Candidate', 'Brown University', 'https://jasonxyliu.github.io'],
   ['Huihan Liu', 'assets/images/organizers/huihan_liu.png', 'PhD Student', 'UT Austin', 'https://huihanl.github.io'],

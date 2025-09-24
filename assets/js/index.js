@@ -95,7 +95,7 @@ $(document).ready(function () {
   <img src="${conference_details[3]}" width="300px" height="300px">
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
   ${conference_details[2]}</p>
-  </a>`)
+  </a> <p>Room 400</p>`)
   $('#workshop-date').html(workshop_date)
 
   // talk content
@@ -104,11 +104,12 @@ $(document).ready(function () {
   populate_people_html('talk-content2', talk_content.slice(4, ))
 
   // panelists content
-  populate_people_html('panelist-content', panelists_details)
+  populate_people_html('panelist-content1', panelists_details.slice(0,4))
+  populate_people_html('panelist-content2', panelists_details.slice(4, 7))
 
 
   // panelists content
-  populate_people_html('panelist-content', panelists_details)
+  // populate_people_html('panelist-content', panelists_details)
 
 
   // organizers content
@@ -155,7 +156,7 @@ $(document).ready(function () {
       talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
       align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
       title = speaker_details[5] != `` ? `<h5 class="center has-text-success bold">${speaker_details[5]}</h5>` : ``
-      abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
+      // abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
       title_abstract_html = ` ${talk_mode}: ${speaker_details[0]} (<span class='toggle-btn has-text-success'>Details</span>)`
       hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}</td></tr>`
     }

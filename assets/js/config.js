@@ -4,32 +4,34 @@ const conference_details = ['CoRL 2025', 'https://www.corl.org/', 'Seoul, South 
 const workshop_date = `September 27, 2025`
 
 const talk_speaker_details = {
-  'rt': ['Russ Tedrake', './assets/images/talks/russ_tedrake.jpeg', 'Professor', 'MIT and Toyota Research Institute', 'https://groups.csail.mit.edu/locomotion/russt.html', 'Reliable and statistical evaluation', ''],
-  'kp': ['Karl Pertsch', './assets/images/talks/karl_pertsch.png', 'Postdoc', 'Stanford University / UC Berkeley', 'https://kpertsch.github.io/', 'Iterating on robot evaluation for generalist robot policies', ''],
-  'mc': ['Maya Cakmak', './assets/images/talks/maya_cakmak.png', 'Professor', 'University of Washington', 'https://homes.cs.washington.edu/~mcakmak/', 'Deployment and evaluation of assistive robots in homes', ''],
-  'sb': ['Serena Booth', './assets/images/talks/serena_booth.jpeg', 'Assistant Professor', 'Brown University', 'https://www.slbooth.com/', 'AI Alignment and Policy', ''],
-  'kl': ['Jason Ma', './assets/images/talks/jason_ma.jpeg', 'Co-Founder', 'Dyna Robotics', 'https://jasonma2016.github.io/', '', ''],
-  'ds': ['Dhruv Shah', './assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Deploying robots in the wild', ''],
-  'mi': ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Scientist', 'Toyota Research Institute', 'https://mashaitkina.com/', ""],
-
+  'jl': ['Joseph Lim', './assets/images/talks/joseph_lim.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', 'TBD', ''],
+  'kp': ['Karl Pertsch', './assets/images/talks/karl_pertsch.png', 'Postdoc', 'Stanford University / UC Berkeley', 'https://kpertsch.github.io/', 'TBD', ''],
+  'mc': ['Maya Cakmak', './assets/images/talks/maya_cakmak.png', 'Professor', 'University of Washington', 'https://homes.cs.washington.edu/~mcakmak/', 'TBD', ''],
+  'sb': ['Serena Booth', './assets/images/talks/serena_booth.jpeg', 'Assistant Professor', 'Brown University', 'https://www.slbooth.com/', 'Robots as the Testbed of AI, AI as the Testbed of Robots', ''],
+  'jm': ['Jason Ma', './assets/images/talks/jason_ma.jpeg', 'Co-Founder', 'Dyna Robotics', 'https://jasonma2016.github.io/', 'Robust Robot Foundation Model for Real-World Deployment', ''],
+  'ds': ['Dhruv Shah', './assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Evaluating and Improving Steerability of Generalist Robot Policies', ''],
+  'mi': ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Lead and Manager', 'Toyota Research Institute', 'https://mashaitkina.com/', 'Evaluation and Uncertainty in the Age of Robot Learning', ''],
 }
   
 const panelists_details = [
   ['Sergey Levine', 'assets/images/panelists/sergey_levine.jpeg', 'Professor', 'UC Berkeley and Physical Intelligence', 'https://people.eecs.berkeley.edu/~svlevine/'],
   ['Yuke Zhu', 'assets/images/panelists/yuke_zhu.jpg', 'Professor', 'UT Austin and NVIDIA GEAR', 'https://www.cs.utexas.edu/~yukez/'],
-  ['Georgia Chalvatzaki', 'assets/images/panelists/georgia.jpg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Team/GeorgiaChalvatzaki'],
-  ['Sudeep Dasari', 'assets/images/panelists/sudeep_dasari.jpg', 'Research Scientist', 'Google DeepMind', 'https://sudeepdasari.com/'],
-  ['Ashwin Balakrishna', 'assets/images/panelists/ashwin_balakrishna.jpg', 'Research Scientist', 'Google DeepMind', 'https://ashwin.io/'],
+  ['Masha Itkina', 'assets/images/panelists/masha.jpg', 'Research Lead and Manager', 'Toyota Research Institute', 'https://mashaitkina.com/'],
+  ['Sudeep Dasari', 'assets/images/panelists/sudeep_dasari.jpg', 'Research Scientist', 'Meta Reality Labs', 'https://sudeepdasari.github.io/'],
+  ['Ashwin Balakrishna', 'assets/images/panelists/ashwin_balakrishna.jpg', 'Research Scientist', 'Physical Intelligence', 'https://abalakrishna123.github.io/'],
+  ['Jason Ma', 'assets/images/talks/jason_ma.jpeg', 'Co-Founder', 'Dyna Robotics', 'https://jasonma2016.github.io/'],
+  ['Dhruv Shah', 'assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Deploying robots in the wild', ''],
 ]
 
 
 const organizers_details = [
   ['Abrar Anwar', 'assets/images/organizers/abrar_anwar.png', 'PhD Candidate', 'University of Southern California', 'https://abraranwar.github.io'],
-  ['Jesse Zhang', 'assets/images/organizers/jessez.jpeg', 'Postdoc', 'University of Washington', 'https://jessezhang.net/'],
-  ['Paul Zhou', 'assets/images/organizers/paul_zhou.png', 'PhD Student', 'UC Berkeley', 'https://zhouzypaul.github.io/'],
-  ['Jason Liu', 'assets/images/organizers/jason_liu.jpg', 'PhD Candidate', 'Brown University', 'https://jasonxyliu.github.io'],
   ['Huihan Liu', 'assets/images/organizers/huihan_liu.png', 'PhD Student', 'UT Austin', 'https://huihanl.github.io'],
+  ['Jesse Zhang', 'assets/images/organizers/jessez.jpeg', 'Postdoc', 'University of Washington', 'https://jessezhang.net/'],
+  ['Jason Liu', 'assets/images/organizers/jason_liu.jpg', 'PhD Candidate', 'Brown University', 'https://jasonxyliu.github.io'],
   ['Jensen Gao', 'assets/images/organizers/jensen_gao.png', 'PhD Student', 'Stanford University', 'https://www.linkedin.com/in/jensen-gao-038024162/'],
+  ['Luke Song', 'assets/images/organizers/luke_song.jpeg', 'PhD Student', 'Ohio State University', 'https://chanh.ee/'],
+  ['Paul Zhou', 'assets/images/organizers/paul_zhou.png', 'PhD Student', 'UC Berkeley', 'https://zhouzypaul.github.io/'],
 ]
 
 const advisory_committee = [
@@ -39,7 +41,7 @@ const advisory_committee = [
 ]
 
 const accepted_presentations = [
-  // ['Jad Abou-Chakra', 'https://au.linkedin.com/in/jadchakra', 'assets/images/ppt-talks/Jad-Abou-Chakra.jpeg', 'PhD Student', 'Queensland University of Technology', 'Physically Embodied Gaussian Splatting: Embedding Physical Priors into a Visual 3D World Model For Robotics', 'Predictive modelling is vital for robotic manipulation, assisting an agent to plan actions to achieve its goals. Many studies have leaned on visual representations like 2d images or 3d neural radiance fields for state representation. However, they often lack the ability to effectively represent and reason over physical phenomena such as gravity, forces, velocities, collisions, or rigidity, limiting interpretability and prediction stability over longer time horizons. We enhance the state representation by combining visual data with explicit physical, structural, and kinematic priors. We forge a connection between a particle-based physics simulator and a visual scene representation that harnesses Gaussian Splatting. Our core innovation is a dual Gaussian-Particle model that facilitates the synthesis of real-world data into a simulation, enabling differentiable parameter updates and integration with a model predictive control pipeline.', 'Spotlight', '9:30 - 9:40'],
+  ['Jad Abou-Chakra', 'https://au.linkedin.com/in/jadchakra', 'assets/images/ppt-talks/Jad-Abou-Chakra.jpeg', 'PhD Student', 'Queensland University of Technology', 'Physically Embodied Gaussian Splatting: Embedding Physical Priors into a Visual 3D World Model For Robotics', 'Predictive modelling is vital for robotic manipulation, assisting an agent to plan actions to achieve its goals. Many studies have leaned on visual representations like 2d images or 3d neural radiance fields for state representation. However, they often lack the ability to effectively represent and reason over physical phenomena such as gravity, forces, velocities, collisions, or rigidity, limiting interpretability and prediction stability over longer time horizons. We enhance the state representation by combining visual data with explicit physical, structural, and kinematic priors. We forge a connection between a particle-based physics simulator and a visual scene representation that harnesses Gaussian Splatting. Our core innovation is a dual Gaussian-Particle model that facilitates the synthesis of real-world data into a simulation, enabling differentiable parameter updates and integration with a model predictive control pipeline.', 'Spotlight', '9:30 - 9:40'],
   // ['Xingyu Lin', 'https://xingyu-lin.github.io/', 'assets/images/ppt-talks/Xingyu-Lin.png', 'PostDoc', 'University of California, Berkeley', 'Learning Generalizable Visuomotor Skills from Pre-trained Networks', 'The existing internet-scale image and video datasets cover a wide range of everyday objects and tasks, bringing the potential of learning policies that generalize in diverse scenarios. Prior works have explored visual pre-training with different self-supervised objectives. Still, the generalization capabilities of the learned policies and the advantages over well-tuned baselines remain unclear from prior studies. In this work, we present a focused study of the generalization capabilities of the pre-trained visual representations at the categorical level. We identify the key bottleneck in using a frozen pre-trained visual backbone for policy learning and then propose SpawnNet, a novel two-stream architecture that learns to fuse pre-trained multi-layer representations into a separate network to learn a robust policy. Through extensive simulated and real experiments, we show significantly better categorical generalization compared to prior approaches in imitation learning settings.', 'Spotlight', '9:40 - 9:50'],
   // ['Yixuan Huang', 'https://robot-learning.cs.utah.edu/yixuanh', 'assets/images/ppt-talks/Yixuan-Huang.png', 'PhD Student', 'University of Utah', 'Reasoning and Planning about Unobserved Objects with Memory Models', 'Robots need to have a memory of previously observed, but currently occluded objects to work reliably in realistic environments. We investigate the problem of encoding object-oriented memory into a multi-object manipulation reasoning and planning framework. We propose DOOM and LOOM, which leverage transformer relational dynamics to encode the history of trajectories given partial-view point clouds and an object discovery and tracking engine. Our approaches can perform multiple challenging tasks including reasoning with occluded objects, novel objects appearance, and object reappearance. Throughout our extensive simulation and real-world experiments, we find that our approaches perform well in terms of different numbers of objects and different numbers of distractor actions.', 'Spotlight', '9:50 - 10:00'],
   // ['Carolina Higuera', 'https://carolinahiguera.github.io/', 'assets/images/ppt-talks/Carolina-Higuera.png', 'PhD Student', 'University of Washington', 'Perceiving Extrinsic Contacts from Touch Improves Learning Insertion Policies', 'Robotic manipulation tasks such as object insertion typically involve interactions between object and environment, namely extrinsic contacts. Prior work on Neural Contact Fields (NCF) use intrinsic tactile sensing between gripper and object to estimate extrinsic contacts in simulation. However, its effectiveness and utility in real-world tasks remain unknown. In this work, we improve NCF to enable sim-to-real transfer and use it to train policies for mug-in-cupholder and bowl-in-dishrack insertion tasks. We find our model NCF-v2, is capable of estimating extrinsic contacts in the real-world. Furthermore, our insertion policy with NCF-v2 outperforms policies without it, achieving 33% higher success and 1.36x faster execution on mug-in-cupholder, and 13% higher success and 1.27x faster execution on bowl-in-dishrack.', 'Spotlight', '10:00 - 10:10'],
@@ -66,16 +68,18 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '09:30 - 09:40', 'Opening remarks'],
-  ['inv-talk', '09:40 - 10:10', 'Invited Talk', 'rt', 'in-person'],
-  ['spot-ppt', '10:10 - 10:30', 'Spotlight Presentations'],
-  ['coffee-break', '10:30 - 11:30', 'Poster Session + Coffee Break'],
-  ['inv-talk', '11:30 - 12:00', 'Invited Talk', 'kp', 'in-person'],
-  ['inv-talk', '12:00 - 12:30', 'Invited Talk', 'mc', 'in-person'],
-  ['lunch-break', '12:30 - 1:30', 'Lunch Break'],
-  ['inv-talk', '1:30 - 2:00', 'Invited Talk', 'sb', 'in-person'],
-  ['inv-talk', '2:00 - 2:30', 'Invited Talk', 'kl', 'in-person'],
-  ['inv-talk', '2:30 - 3:00', 'Invited Talk', 'dz', 'in-person'],
-  ['inv-talk', '3:00 - 3:30', 'Invited Talk', 'ds', 'in-person'],
-  ['panel', '3:30 - 4:20', 'Panel / Debate'],
-  ['closing', '4:20 - 4:30', 'Closing Remarks & Award(s)']
+  ['inv-talk', '09:40 - 10:05', 'Invited Talk', 'mc', 'in-person'],
+  ['spot-ppt', '10:05 - 10:31', 'Spotlight Presentations'],
+  ['coffee-break', '10:31 - 11:15', 'Poster Session + Coffee Break'],
+  ['inv-talk', '11:15 - 11:40', 'Invited Talk', 'kp', 'in-person'],
+  ['inv-talk', '11:40 - 12:05', 'Invited Talk', 'mi', 'in-person'],
+  ['inv-talk', '12:05 - 12:30', 'Invited Talk', 'ds', 'in-person'],
+  ['lunch-break', '12:30 - 13:30', 'Lunch Break'],
+  ['oral', '13:30 - 13:55', 'Oral Presentations'],
+  ['inv-talk', '13:55 - 14:20', 'Invited Talk', 'sb', 'in-person'],
+  ['coffee-break', '14:30 - 15:00', 'Poster Session + Coffee Break'],
+  ['panel', '15:00 - 15:40', 'Panel Session',],
+  ['inv-talk', '15:40 - 16:05', 'Invited Talk', 'jm', 'in-person'],
+  ['inv-talk', '16:05 - 16:30', 'Invited Talk', 'jl', 'in-person'],
+  ['closing', '16:30 - 16:35', 'Closing Remarks']
 ]

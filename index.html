@@ -160,7 +160,26 @@
     </div>
   </section>
 
-
+  <section id="schedule" class="section">
+    <div class="container is-max-desktop">
+      <!-- Schedule. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <!-- <h2 class="title is-3">Tentative Schedule</h2> -->
+          <h2 class="title is-3">Schedule</h2>
+          <div class="content center has-text-justified">
+            <!-- Coming soon. Thanks for your patience. -->
+            <!-- <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Specific details will be coming soon. Thanks for your patience.</div><br> -->
+            <div class="table-container">
+              <table id="schedule-table" class="table">
+                <tbody id="schedule-table-body">
+              </table>
+            </div>
+          </div>
+        </div>
+        <!--/ Schedule. -->
+      </div>
+  </section>
 
   <section id="speakers" class="section">
     <!-- Speakers. -->
@@ -175,12 +194,38 @@
     <!-- Panelists. -->
     <div class="container is-max-desktop">
       <h2 class="center title is-3">Panelists</h2>
-      <div id="panelist-content" class="columns is-centered"></div>
+      <div id="panelist-content1" class="columns is-centered"></div>
+      <div id="panelist-content2" class="columns is-centered"></div>
+
       <!--/ Panelists. -->
   </section>
 
 
-  <section id="call-for-presentations" class="section">
+  <section id="accepted-presentations" class="section">
+    <!-- Accepted Presentations. -->
+    <div class="container is-max-desktop">
+      <h2 class="center title is-3">Accepted Presentations</h2>
+      <div id="accepted-presentation-content" class="columns is-centered">
+        <ul>
+          <li><strong>VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models</strong><br><span style="display: inline-block; margin-left: 1em;">Chongkai Gao, Zixuan Liu, Zhenghao Chi, Junshan Huang, Xin Fei, Yiwen Hou, Yuxuan Zhang, Yudi Lin, Zhirui Fang, Zeyu Jiang, Lin Shao</span></li>
+          <li><strong>Test-Time Scaling of Vision-Language-Action Models via Self-Certainty</strong><br><span style="display: inline-block; margin-left: 1em;">Xu Luo, Jiaying Yang, Zehang Bai, Junlin Xie, Ji Zhang, Lianli Gao, Jingkuan Song</span></li>
+          <li><strong>Evaluating Manipulation Policies in Clutter</strong><br><span style="display: inline-block; margin-left: 1em;">Amir Rasouli, Montgomery Alban</span></li>
+          <li><strong>RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation</strong><br><span style="display: inline-block; margin-left: 1em;">Yi Ru Wang, Carter Ung, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Markus Grotz, Rishabh Oswal, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa</span></li>
+          <li><strong>Identity-Conditioned Preference-Aware Table Tidying with LLM-in-the-Loop</strong><br><span style="display: inline-block; margin-left: 1em;">Bojun.Long, Zhenhao.Guo, Fan.Zhu</span></li>
+          <li><strong>Occlusion-robust Pose Estimation for Multi-Robot Systems via Geometric-aware Diffusion Matching</strong><br><span style="display: inline-block; margin-left: 1em;">Suyoung Kang, Rishav Dutta, Peng Gao, Hao Zhang</span></li>
+          <li><strong>Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies</strong><br><span style="display: inline-block; margin-left: 1em;">Chen Xu, Tony Khuong Nguyen, Emma Dixon, Christopher Rodriguez, Patrick Miller, Robert Lee, Paarth Shah, Rares Andrei Ambrus, Haruki Nishimura, Masha Itkina</span></li>
+          <li><strong>AURA: Autonomous Upskilling with Retrieval-Augmented Agents</strong><br><span style="display: inline-block; margin-left: 1em;">Alvin Zhu, Yusuke Tanaka, Andrew Goldberg, Dennis Hong</span></li>
+          <li><strong>N2M: Bridging Navigation and Manipulation by Learning Pose Preference from Rollout</strong><br><span style="display: inline-block; margin-left: 1em;">Kaixin Chai, Hyunjun Lee, Joseph J Lim</span></li>
+          <li><strong>Reliable and Scalable Robot Policy Evaluation with Imperfect Simulators</strong><br><span style="display: inline-block; margin-left: 1em;">Apurva Badithela, David Snyder, Lihan Zha, Joseph Mikhail, Matthew O'Kelly, Anushri Dixit, Anirudha Majumdar</span></li>
+          <li><strong>Score the Steps, Not Just the Goal: VLM-Based Subgoal Evaluation for Robotic Manipulation</strong><br><span style="display: inline-block; margin-left: 1em;">Ramy ElMallah, Krish Chhajer, Chi-Guhn Lee</span></li>
+          <li><strong>Benchmarking Affordance Generalization with BusyBox</strong><br><span style="display: inline-block; margin-left: 1em;">Dean Fortier, Timothy Adamson, Tess Hellebrekers, Teresa LaScala, Kofi Ennin, Michael Murray, Andrey Kolobov, Galen Mullins</span></li>
+          <li><strong>SPUR: Scaling Reward Learning from Human Demonstrations</strong><br><span style="display: inline-block; margin-left: 1em;">Anthony Liang, Yigit Korkmaz, Jiahui Zhang, Jesse Zhang, Abrar Anwar, Sidhant Kaushik, Yufei Wang, Yu Xiang, David Held, Dieter Fox, Abhishek Gupta, Stephen Tu, Erdem Biyik</span></li>
+        </ul>
+      </div>
+      <!--/ Accepted Presentations. -->
+  </section>
+  
+  <!-- <section id="call-for-presentations" class="section">
     <div class="container is-max-desktop">
       <h2 class="center title is-3">Call for Papers</h2>
       <div class="content has-text-justified">
@@ -204,7 +249,9 @@
         </div>
 
       </div>
-  </section>
+  </section> -->
+
+
 
 
   <section id="organizers" class="section">
@@ -225,26 +272,7 @@
       <!--/ Advisory Committee. -->
   </section>
 
-  <section id="schedule" class="section">
-    <div class="container is-max-desktop">
-      <!-- Schedule. -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column">
-          <!-- <h2 class="title is-3">Tentative Schedule</h2> -->
-          <h2 class="title is-3">Schedule</h2>
-          <div class="content center has-text-justified">
-            <!-- Coming soon. Thanks for your patience. -->
-            <!-- <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Specific details will be coming soon. Thanks for your patience.</div><br> -->
-            <div class="table-container">
-              <table id="schedule-table" class="table">
-                <tbody id="schedule-table-body">
-              </table>
-            </div>
-          </div>
-        </div>
-        <!--/ Schedule. -->
-      </div>
-  </section>
+
 
 
   <section id="schedule" class="section">

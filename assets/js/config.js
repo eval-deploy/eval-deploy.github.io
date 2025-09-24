@@ -20,7 +20,7 @@ const panelists_details = [
   ['Sudeep Dasari', 'assets/images/panelists/sudeep_dasari.jpg', 'Research Scientist', 'Meta Reality Labs', 'https://sudeepdasari.github.io/'],
   ['Ashwin Balakrishna', 'assets/images/panelists/ashwin_balakrishna.jpg', 'Research Scientist', 'Physical Intelligence', 'https://abalakrishna123.github.io/'],
   ['Jason Ma', 'assets/images/talks/jason_ma.jpeg', 'Co-Founder', 'Dyna Robotics', 'https://jasonma2016.github.io/'],
-  ['Dhruv Shah', 'assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/', 'Deploying robots in the wild', ''],
+  ['Dhruv Shah', 'assets/images/talks/dhruv_shah.jpeg', 'Assistant Professor', 'Princeton University', 'https://robodhruv.github.io/'],
 ]
 
 
